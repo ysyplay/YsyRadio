@@ -72,7 +72,6 @@
 		EB680D1424DAB0EF00D7AFAA /* YsyRadioDemo */ = {
 			isa = PBXGroup;
 			children = (
-				EB7309F924DB96E700F7BF41 /* source */,
 				EB680D2F24DAB10000D7AFAA /* YsyRadio */,
 				EB680D1524DAB0EF00D7AFAA /* AppDelegate.h */,
 				EB680D1624DAB0EF00D7AFAA /* AppDelegate.m */,
@@ -92,6 +91,7 @@
 		EB680D2F24DAB10000D7AFAA /* YsyRadio */ = {
 			isa = PBXGroup;
 			children = (
+				EB7309F924DB96E700F7BF41 /* source */,
 				EB730A0224DBA4E200F7BF41 /* YsyRadios.h */,
 				EB680D3024DAB16700D7AFAA /* YsyRadioGroup.h */,
 				EB680D3124DAB16700D7AFAA /* YsyRadioGroup.m */,
