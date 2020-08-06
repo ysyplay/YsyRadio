@@ -1,5 +1,9 @@
 # YsyRadio
 
+   在html中有个很常用的组件radio，在日常开发中经常能够遇到。然而很遗憾UIKit并没有提供这一组件，导致在开发类似的功能时，时常需要写一些无关业务的冗余代码，极其的不优雅。于是乎封装一个简单易用，小巧灵活的redio组件在某个无所事事的下午被我提上日程。
+  
+先上[demo地址](https://github.com/ysyplay/YsyRadio)
+
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 300, 200, 30)];
     [self.view addSubview:label];
     
@@ -16,3 +20,5 @@
 ![demo样图](https://upload-images.jianshu.io/upload_images/13492225-cb7d5039cdccc602.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
  可以看到这里所有使用代码都在这里，api设计的也很简单。对项目友好无入侵，有需要的同学可以打开demo尝试一下。要是你觉得好用，请点亮小星星🌟。
+
+
