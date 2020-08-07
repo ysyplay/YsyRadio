@@ -23,6 +23,7 @@
     radio.name = name;
     radio.val  = val;
     radio.selected = selected;
+    radio.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
     return radio;
 }
 @end

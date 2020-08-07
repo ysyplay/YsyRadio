@@ -17,7 +17,6 @@ typedef void(^radioSelect)(YsyRadio *radio);
 /// @param select 点击选择的回掉block(block里需避免循环引用！请用weakSelf)
 /// @param radio  可变参数，可往里添加多个radio对象，组成一组
 + (YsyRadioGroup *)onView:(UIView *)view select:(radioSelect)select radios:(YsyRadio *)radio, ...;
-
 /// 获取已选中的radio
 - (YsyRadio *)getSelectedRadio;
 @end

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB5AB9F824DD53BF004925F2 /* unSelectRadio@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5AB9F124DD53BF004925F2 /* unSelectRadio@3x.png */; };
+		EB5AB9F924DD53BF004925F2 /* selectRadio@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5AB9F224DD53BF004925F2 /* selectRadio@3x.png */; };
+		EB5AB9FA24DD53BF004925F2 /* YsyRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5AB9F424DD53BF004925F2 /* YsyRadio.m */; };
+		EB5AB9FB24DD53BF004925F2 /* YsyRadioGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5AB9F724DD53BF004925F2 /* YsyRadioGroup.m */; };
 		EB680D1724DAB0EF00D7AFAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB680D1624DAB0EF00D7AFAA /* AppDelegate.m */; };
 		EB680D1A24DAB0EF00D7AFAA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB680D1924DAB0EF00D7AFAA /* SceneDelegate.m */; };
 		EB680D1D24DAB0EF00D7AFAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB680D1C24DAB0EF00D7AFAA /* ViewController.m */; };
@@ -14,13 +18,16 @@
 		EB680D2224DAB0F600D7AFAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB680D2124DAB0F600D7AFAA /* Assets.xcassets */; };
 		EB680D2524DAB0F600D7AFAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB680D2324DAB0F600D7AFAA /* LaunchScreen.storyboard */; };
 		EB680D2824DAB0F600D7AFAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB680D2724DAB0F600D7AFAA /* main.m */; };
-		EB680D3224DAB16700D7AFAA /* YsyRadioGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = EB680D3124DAB16700D7AFAA /* YsyRadioGroup.m */; };
-		EB680D3824DAB1E700D7AFAA /* YsyRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = EB680D3724DAB1E700D7AFAA /* YsyRadio.m */; };
-		EB730A0524DBD3A600F7BF41 /* selectRadio@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB730A0324DBD3A600F7BF41 /* selectRadio@2x.png */; };
-		EB730A0624DBD3A600F7BF41 /* unSelectRadio@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB730A0424DBD3A600F7BF41 /* unSelectRadio@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB5AB9F124DD53BF004925F2 /* unSelectRadio@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unSelectRadio@3x.png"; sourceTree = "<group>"; };
+		EB5AB9F224DD53BF004925F2 /* selectRadio@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectRadio@3x.png"; sourceTree = "<group>"; };
+		EB5AB9F324DD53BF004925F2 /* YsyRadioGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YsyRadioGroup.h; sourceTree = "<group>"; };
+		EB5AB9F424DD53BF004925F2 /* YsyRadio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YsyRadio.m; sourceTree = "<group>"; };
+		EB5AB9F524DD53BF004925F2 /* YsyRadios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YsyRadios.h; sourceTree = "<group>"; };
+		EB5AB9F624DD53BF004925F2 /* YsyRadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YsyRadio.h; sourceTree = "<group>"; };
+		EB5AB9F724DD53BF004925F2 /* YsyRadioGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YsyRadioGroup.m; sourceTree = "<group>"; };
 		EB680D1224DAB0EF00D7AFAA /* YsyRadioDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YsyRadioDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB680D1524DAB0EF00D7AFAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB680D1624DAB0EF00D7AFAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,13 +40,6 @@
 		EB680D2424DAB0F600D7AFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB680D2624DAB0F600D7AFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB680D2724DAB0F600D7AFAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EB680D3024DAB16700D7AFAA /* YsyRadioGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YsyRadioGroup.h; sourceTree = "<group>"; };
-		EB680D3124DAB16700D7AFAA /* YsyRadioGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YsyRadioGroup.m; sourceTree = "<group>"; };
-		EB680D3624DAB1E700D7AFAA /* YsyRadio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YsyRadio.h; sourceTree = "<group>"; };
-		EB680D3724DAB1E700D7AFAA /* YsyRadio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YsyRadio.m; sourceTree = "<group>"; };
-		EB730A0224DBA4E200F7BF41 /* YsyRadios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YsyRadios.h; sourceTree = "<group>"; };
-		EB730A0324DBD3A600F7BF41 /* selectRadio@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectRadio@2x.png"; sourceTree = "<group>"; };
-		EB730A0424DBD3A600F7BF41 /* unSelectRadio@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unSelectRadio@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +53,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB5AB9EF24DD53BF004925F2 /* YsyRadio */ = {
+			isa = PBXGroup;
+			children = (
+				EB5AB9F024DD53BF004925F2 /* source */,
+				EB5AB9F324DD53BF004925F2 /* YsyRadioGroup.h */,
+				EB5AB9F424DD53BF004925F2 /* YsyRadio.m */,
+				EB5AB9F524DD53BF004925F2 /* YsyRadios.h */,
+				EB5AB9F624DD53BF004925F2 /* YsyRadio.h */,
+				EB5AB9F724DD53BF004925F2 /* YsyRadioGroup.m */,
+			);
+			path = YsyRadio;
+			sourceTree = "<group>";
+		};
+		EB5AB9F024DD53BF004925F2 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				EB5AB9F124DD53BF004925F2 /* unSelectRadio@3x.png */,
+				EB5AB9F224DD53BF004925F2 /* selectRadio@3x.png */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
 		EB680D0924DAB0EF00D7AFAA = {
 			isa = PBXGroup;
 			children = (
@@ -72,7 +94,7 @@
 		EB680D1424DAB0EF00D7AFAA /* YsyRadioDemo */ = {
 			isa = PBXGroup;
 			children = (
-				EB680D2F24DAB10000D7AFAA /* YsyRadio */,
+				EB5AB9EF24DD53BF004925F2 /* YsyRadio */,
 				EB680D1524DAB0EF00D7AFAA /* AppDelegate.h */,
 				EB680D1624DAB0EF00D7AFAA /* AppDelegate.m */,
 				EB680D1824DAB0EF00D7AFAA /* SceneDelegate.h */,
@@ -86,28 +108,6 @@
 				EB680D2724DAB0F600D7AFAA /* main.m */,
 			);
 			path = YsyRadioDemo;
-			sourceTree = "<group>";
-		};
-		EB680D2F24DAB10000D7AFAA /* YsyRadio */ = {
-			isa = PBXGroup;
-			children = (
-				EB7309F924DB96E700F7BF41 /* source */,
-				EB730A0224DBA4E200F7BF41 /* YsyRadios.h */,
-				EB680D3024DAB16700D7AFAA /* YsyRadioGroup.h */,
-				EB680D3124DAB16700D7AFAA /* YsyRadioGroup.m */,
-				EB680D3624DAB1E700D7AFAA /* YsyRadio.h */,
-				EB680D3724DAB1E700D7AFAA /* YsyRadio.m */,
-			);
-			path = YsyRadio;
-			sourceTree = "<group>";
-		};
-		EB7309F924DB96E700F7BF41 /* source */ = {
-			isa = PBXGroup;
-			children = (
-				EB730A0324DBD3A600F7BF41 /* selectRadio@2x.png */,
-				EB730A0424DBD3A600F7BF41 /* unSelectRadio@2x.png */,
-			);
-			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,9 +167,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB5AB9F924DD53BF004925F2 /* selectRadio@3x.png in Resources */,
+				EB5AB9F824DD53BF004925F2 /* unSelectRadio@3x.png in Resources */,
 				EB680D2524DAB0F600D7AFAA /* LaunchScreen.storyboard in Resources */,
-				EB730A0524DBD3A600F7BF41 /* selectRadio@2x.png in Resources */,
-				EB730A0624DBD3A600F7BF41 /* unSelectRadio@2x.png in Resources */,
 				EB680D2224DAB0F600D7AFAA /* Assets.xcassets in Resources */,
 				EB680D2024DAB0F000D7AFAA /* Main.storyboard in Resources */,
 			);
@@ -182,12 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB680D3224DAB16700D7AFAA /* YsyRadioGroup.m in Sources */,
-				EB680D3824DAB1E700D7AFAA /* YsyRadio.m in Sources */,
 				EB680D1D24DAB0EF00D7AFAA /* ViewController.m in Sources */,
+				EB5AB9FA24DD53BF004925F2 /* YsyRadio.m in Sources */,
 				EB680D1724DAB0EF00D7AFAA /* AppDelegate.m in Sources */,
 				EB680D2824DAB0F600D7AFAA /* main.m in Sources */,
 				EB680D1A24DAB0EF00D7AFAA /* SceneDelegate.m in Sources */,
+				EB5AB9FB24DD53BF004925F2 /* YsyRadioGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
